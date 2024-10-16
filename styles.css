@@ -1,0 +1,136 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Login Container */
+  .login-container, .forum-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    margin: 20px;
+  }
+  
+  .login-container {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+  }
+  
+  .login-container h2 {
+    color: white;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  input {
+    border: none;
+    background: #f9f9f9;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid #2575fc;
+  }
+  
+  textarea {
+    min-height: 100px;
+    background-color: #f9f9f9;
+    border: none;
+  }
+  
+  textarea:focus {
+    outline: none;
+    border: 1px solid #2575fc;
+  }
+  
+  button {
+    background-color: #2575fc;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1a5bbd;
+  }
+  
+  #errorMessage {
+    color: #ff6b6b;
+    text-align: center;
+  }
+  
+  /* Forum Container */
+  .forum-container h2 {
+    color: #2575fc;
+  }
+  
+  #commentsSection {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    background-color: #e7f3ff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  .comment-buttons {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .comment-buttons button {
+    background-color: #ff5252;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .comment-buttons button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .comment-buttons .edit-btn {
+    background-color: #007bff;
+  }
+  
+  .comment-buttons .edit-btn:hover {
+    background-color: #0056b3;
+  }
+

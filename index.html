@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foro de Wilson</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="login-container" id="loginContainer">
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Usuario" required>
+      <input type="password" id="password" placeholder="Contraseña" required>
+      <button type="submit">Ingresar</button>
+    </form>
+    <div id="errorMessage"></div>
+  </div>
+
+  <div class="forum-container" id="forumContainer" style="display: none;">
+    <h2>Bienvenido al Foro, Wilson</h2>
+    <form id="commentForm">
+      <textarea id="commentText" placeholder="Escribe tu comentario aquí..." required></textarea>
+      <button type="submit">Comentar</button>
+    </form>
+    <div id="commentsSection">
+      <!-- Aquí se agregarán los comentarios -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
